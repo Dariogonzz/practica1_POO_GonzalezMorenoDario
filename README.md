@@ -7,12 +7,12 @@
 ---
 
 ## Descripción del Proyecto
-Este proyecto consiste en la refactorización completa de una simulación realista de una planta industrial desarrollada en Python utilizando **MuJoCo**, **OpenCV** y **NumPy**. El código original implementaba una planta mediante programación procedural con funciones globales y compartidas. El objetivo de esta práctica es transformar dicha arquitectura en un diseño modular basado en **Programación Orientada a Objetos (POO)**, dotando a cada componente de responsabilidades claramente definidas, encapsulamiento y composición, sirviendo además como base extensible para la Práctica II[cite: 33, 34].
+Este proyecto consiste en la refactorización completa de una simulación realista de una planta industrial desarrollada en Python utilizando **MuJoCo**, **OpenCV** y **NumPy**. El código original implementaba una planta mediante programación procedural con funciones globales y compartidas. El objetivo de esta práctica es transformar dicha arquitectura en un diseño modular basado en **Programación Orientada a Objetos (POO)**, dotando a cada componente de responsabilidades claramente definidas, encapsulamiento y composición, sirviendo además como base extensible para la Práctica.
 
 ---
 
 ## Estructura del Proyecto
-El proyecto sigue una organización modular limpia, separando el punto de entrada de la lógica de negocio ubicada en el directorio `src/`[cite: 42]:
+El proyecto sigue una organización modular limpia, separando el punto de entrada de la lógica de negocio ubicada en el directorio `src/`.
 
 ```text
 planta_industrial/
